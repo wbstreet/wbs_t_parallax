@@ -58,7 +58,7 @@ function custom_menu($menu_num) {
 </head><body>
     <div id='sheet' style='background:#d6b073;width:100%;height:100%;position:absolute;top:0;left:0;z-index:100000;text-align:center;'>
         <span style='display:inline-block;font-size:15pt;margin-top:10%;'>Загрузка сайта...</span>
-        <!--<img src="<?=WB_URL.MEDIA_DIRECTORY?>/img/logo.png" style='height: 105px;margin-top: 8px;margin-right:10px;'>-->
+        <!--<img src="<?=WB_URL.MEDIA_DIRECTORY?>/common_img/logo.png" style='height: 105px;margin-top: 8px;margin-right:10px;'>-->
     </div>
 
     <style>
@@ -81,7 +81,7 @@ function custom_menu($menu_num) {
             </div>
     
             <div class='logo' style='/*background:red;border-radius:20px;height:100px;width:100px;*/'>
-                <a href="<?php echo WB_URL; ?>/" style="display: inline-block;"><img src="<?php echo WB_URL; ?>/media/img/logo.png" alt="<?php echo WEBSITE_TITLE; ?>" title="<?php echo WEBSITE_TITLE; ?>" style="width: 100%;"></a>
+                <a href="<?php echo WB_URL; ?>/" style="display: inline-block;"><img src="<?php echo WB_URL; ?>/media/common_img/logo.png" alt="<?php echo WEBSITE_TITLE; ?>" title="<?php echo WEBSITE_TITLE; ?>" style="width: 100%;"></a>
             </div>
 
             <div class='button_menu' onclick="$('.menu1, .menu3').animate({width:'toggle'}, 350)">
