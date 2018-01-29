@@ -53,7 +53,7 @@ function custom_menu($menu_num) {
 	<link rel="stylesheet" type="text/css" href="<?php echo TEMPLATE_DIR; ?>/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo TEMPLATE_DIR; ?>/css/component.css" />
 	<script src="<?php echo TEMPLATE_DIR; ?>/js/modernizr.custom.js"></script>
-        <?php if(function_exists('wbs_core_include')) wbs_core_include(['functions.js', 'windows.js', 'windows.css']); ?>
+        <?php if(function_exists('wbs_core_include')) wbs_core_include(['functions.js', 'windows.js', 'windows.css', 'effects.css']); ?>
 	<?php require_once(WB_PATH.'/include/captcha/captcha.php'); ?>
 </head><body>
     <div id='sheet' style='background:#d6b073;width:100%;height:100%;position:absolute;top:0;left:0;z-index:100000;text-align:center;'>
