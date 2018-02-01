@@ -203,7 +203,7 @@ function custom_menu($menu_num) {
     	window.addEventListener('load', function() {
            if (document.getElementById('sheet')) document.getElementById('sheet').remove();
        })
-
+    let g = new Gallery(document.querySelectorAll('.fm'));
 	</script>
 
 	<div class='windowBody' id='feedback' >
