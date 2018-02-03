@@ -203,7 +203,8 @@ function custom_menu($menu_num) {
     	window.addEventListener('load', function() {
            if (document.getElementById('sheet')) document.getElementById('sheet').remove();
        })
-    let g = new Gallery(document.querySelectorAll('.fm'));
+    let g = new Gallery(document.querySelectorAll('.fm'));
+
 	</script>
 
 	<div class='windowBody' id='feedback' >
@@ -250,7 +251,8 @@ function custom_menu($menu_num) {
 			</table>
 		</form>
 	</div>
-
+ 
+    <?php if (defined('CUSTOMSETTINGS_COUNTERS')) echo CUSTOMSETTINGS_COUNTERS; ?>
     <img src="<?=WB_URL.MEDIA_DIRECTORY?>/img/mail.gif" alt="" style='height:180px;position:fixed;bottom:10px;right:10px;cursor:pointer;' onclick="W.open('feedback', {add_sheet:true, add_title:false})">
 
     <!-- Для слайдера -->
